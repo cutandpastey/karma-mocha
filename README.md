@@ -47,11 +47,11 @@ module.exports = function(config) {
       '*.js'
     ],
 
-    client: {
-      mocha: {
-        ui: 'tdd'
-      }
+    
+    mocha: {
+      ui: 'tdd'
     }
+
   });
 };
 ```
